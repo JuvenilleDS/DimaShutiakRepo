@@ -9,37 +9,48 @@
 <body>
     <script>
         \u0063\u006F\u006E\u0073\u006F\u006C\u0065.\u006C\u006F\u0067('\u0048\u0045\u004C\u004C\u004F\u0020\u0057\u004F\u0052\u004C\u0044');
+
         console.error('hello');
+
         console.log(null, true, false, 5, 0o141414, 0xFF, 1e-2, 'hi', "hi", `hi`);
+
         console.time();
         console.group('null');
-            console.log(null);
+
+        console.log(null);
         console.groupEnd('null');
         console.group('boolean');
-            console.log(true, false);
+
+        console.log(true, false);
         console.groupEnd('boolean');
         console.group('numeric');
-            console.log(5, 0o141414, 0xFF, 1e-2);
+
+        console.log(5, 0o141414, 0xFF, 1e-2);
         console.groupEnd('numeric');
         console.group('string');
-            console.log('hi', "hi", `hi`)
+
+        console.log('hi', "hi", `hi`)
         console.groupEnd('string');
         console.timeEnd();
+
         var age = prompt('сколько вам лет?');
-            console.log(age);
+        console.log(age);
+
         var name = prompt('ваше имя?');
         var surname = prompt('ваша фамилия?');
         var age = prompt('ваш возраст?');
         var gender = prompt('ваш пол?');
-            console.info(name, surname, age, gender);
-        window
+        console.info(name, surname, age, gender);
+
         console.dir(document);
         console.log(document);
+
         dude = 'чувак';
         var dude = 'чувак';
+        
         'use strict';
-            dude = 'чувак';
-            var dude = 'чувак';
+        dude = 'чувак';
+        var dude = 'чувак';
     </script>
 </body>
 </html>
